@@ -9,19 +9,21 @@
 
 ## Installation
 
-Simply download the mod through [this link](https://github.com/4GlVE/t5cine/releases/latest). Scroll down to `Assets` and download `mp_t5cine.zip`.
+Simply download the mod through [this link](https://github.com/4GlVE/iw5cine/releases/latest). Scroll down to `Assets` and download `iw5cine.zip`.
 
-Once the mod downloaded, open the ZIP file and drag the `=` folder into your `MW3/mods` folder. If the `mods` folder doesn't exist, create it.
+Once the mod is downloaded, open the ZIP file and drag the `iw5cine` folder into your `iw5/mods` folder. If the `mods` folder doesn't exist, create it.
 
 ```text
 C:/
 └── .../
-    └── MW3/
-        └── mods/
-            └── mp_t5cine
+    └──Plutonium/
+           └── Storage/
+                └── iw5/
+                    └── mods/
+                        └── iw5cine
 ```
 
-Once this is done open your game, then click on the "Mods" tab. "=" should appear in the list; click on it once and then click on "Launch" to restart your game with the mod on.
+Once this is done open your game, open the console using the tilde key, then type `/fs_game mods/iw5cine`. Make sure you are loading a map using the `devmap` command...
 
 ## Command List
 
