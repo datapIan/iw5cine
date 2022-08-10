@@ -1,4 +1,6 @@
 # *iw5cine - A Modern Warfare 3 Cinematic Mod* <!-- omit in toc -->
+<a href="https://discord.gg/wgRJDJJ"><img src="https://img.shields.io/discord/617736623412740146?label=Discord&style=flat-square"></a>
+<a href="https://github.com/sasseries/iw4-cine-mod/releases"><img src="https://img.shields.io/github/v/release/4GlVE/iw5cine?label=Latest%20version&style=flat-square"></a>
 
 **A GSC modification for iw5 to create cinematics.**
 
