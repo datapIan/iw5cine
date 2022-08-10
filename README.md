@@ -14,20 +14,17 @@ Simply download the mod through [this link](https://github.com/4GlVE/iw5cine/rel
 Once the mod is downloaded, open the ZIP file and drag the `iw5cine` folder into your `iw5/mods` folder. If the `mods` folder doesn't exist, create it.
 
 ```text
-C:/
-└── .../
+.../
     └──Plutonium/
-           └── Storage/
-                └── iw5/
-                    └── mods/
-                        └── iw5cine
+        └── Storage/
+            └── iw5/
+                └── mods/
+                    └── iw5cine
 ```
 
 Once this is done open your game, open the console using the tilde key, then type `/fs_game mods/iw5cine`. Make sure you are loading a map using the `devmap` command...
 
 ## Command List
-
-> These commands are set using the onPlayerCommand function, therefore will not show in the console as a dvar.
 
 ### Bot Commands <!-- omit in toc -->
 * `mvm_bot_spawn` - This command allows you to spawn a bot.
@@ -41,17 +38,7 @@ Once this is done open your game, open the console using the tilde key, then typ
 * `mvm_eb_close` - Toggles on/off close explosive bullets
 
 ## To-Do List
-I know this mod is very bare bones and there is not much to it, but in time I will try to implement every part of Sass' mod into Black Ops.
-
-You can only spawn one bot at a time, and I have not yet implemented a way to kill the bot via command.
-* Add the ability to differentiate between bot names for ease of use with commands.
-* Add the ability to spawn bots and choosing "class" and "team".
-* Add "kill" command.
-* Add "vision" command.
-* Add "bot model" command.
-* Add "hold gun" command.
-* Add "score" command. // Similar to "mvm_score"
-* Add "killstreak command. // Similar to "mvm_killstreak"
+everything
 
 ## Credits
 **Sass:** *Wouldnt be doing this kind of stuff today if it wasn't for him. // Thank you for allowing me to use your code for my mod and everything else you've done for me! Seriously, all the kindness you've shown me the past years/recently is very appreciated.*
