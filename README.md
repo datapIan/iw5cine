@@ -1,52 +1,83 @@
-# *iw5cine - A Modern Warfare 3 Cinematic Mod* <!-- omit in toc -->
-<a href="https://discord.gg/wgRJDJJ"><img src="https://img.shields.io/discord/617736623412740146?label=Discord&style=flat-square"></a>
-<a href="https://github.com/sasseries/iw4-cine-mod/releases"><img src="https://img.shields.io/github/v/release/4GlVE/iw5cine?label=Latest%20version&style=flat-square"></a>
+# *IW5Cine*
+<img src="" alt="screenshot" height="250px" align="right"/>
 
-**A GSC modification for iw5 to create cinematics.**
+**A Port of [Sass' Cinematic Mod](https://github.com/sortileges/iw4cine) to Modern Warfare 3**
 
-- [Installation](#installation)
-- [Command List](#command-list)
-- [To-Do List](#to-do-list)
-- [Credits](#credits)
+<p align="left">
+  <a href="#about">About</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#issues">Issues</a> •
+  <a href="#credits">Credits</a>
+</p>
+
+<div align="left">
+<a href="https://github.com/datapIan/iw3cine/releases"><img src="https://img.shields.io/github/v/release/datapIan/iw3cine?label=Latest%20Release&style=flat-square"></a>
+  <a href="https://github.com/datapIan/iw3cine/releases""><img src="https://img.shields.io/github/downloads/datapIan/iw3cine/total?style=flat-square"></a>
+
+## About
+
+ - Sass' mod changed the editing game, and it's what we've all used for cinematics for as long as we can remember. I believed the same level of personalization should be in every other game. So I did it.
+
+99% of the code was written by Sass, I take no credit for the work he has done, I just changed a few things to make it work on COD4.
 
 ## Installation
 
-Simply download the mod through [this link](https://github.com/4GlVE/iw5cine/releases/latest). Scroll down to `Assets` and download `iw5cine.zip`.
+There's two types of installations for this mod. One for the *iw3xo* client, and one for the *COD4(x)* clients.
 
-Once the mod is downloaded, open the ZIP file and drag the `iw5cine` folder into your `iw5/mods` folder. If the `mods` folder doesn't exist, create it.
+#### [Plutonium IW5](https://plutonium.pw) (Recommended)
 
+* Download the mod from [here](), extract and drag the "iw5cine" folder into your mods folder.
 ```text
-.../
-    └──Plutonium/
-        └── Storage/
-            └── iw5/
-                └── mods/
+C:/
+└── %localappdata%/
+    └── plutonium
+        └── storage
+            └── iw5
+                └── mods
                     └── iw5cine
 ```
 
-Once this is done open your game, open the console using the tilde key, then type `/fs_game mods/iw5cine`. Make sure you are loading a map using the `devmap` command...
 
-## Command List
+#### MW3 Steam
 
-### Bot Commands <!-- omit in toc -->
-* `mvm_bot_spawn` - This command allows you to spawn a bot.
-* `mvm_bot_setup` - If you want to change the position of your bot, then this is the command you need. The bot will also respawn to its new position if it gets killed.
-* `mvm_bot_stare` - This command will make the bot look at the host.
- 
-### Misc Commands <!-- omit in toc -->
-* `about` - Prints credits and information on the screen.
-* `clone` - Spawns a clone of yourself
-* `clearbodies` - Deletes all dead bodies
-* `mvm_eb_close` - Toggles on/off close explosive bullets
+* Download the mod from [here](), extract and drag the "iw5cine" folder into your mods folder.
+```text
+C:/
+└── .../
+    └── MW3/
+        └── mods/
+            └── iw5cine
+```
 
-## To-Do List
-everything
+## Usage
+
+* Most commands in-game function the same way as they did in MW2, except for the toggling type commands: `about, clone, clearbodies, mvm_eb, and mvm_bot_holdgun`
+
+  └── These commands are required to be typed as `command` followed by a 1. Example: `clearbodies 1`
+* BotSpawn and BotModel command arguments are `class = ar, smg, lmg, shotgun, sniper`, `team = allies, axis`
+* BotWeapon command arugments are `weapon = weapon name (m40a3_mp)`, `camo = woodland, desert, digital, blue, red, gold`
+* BotKill command arguments are `mode = head, body, shotgun, cash`
+* EnvColors command arguments are the name of any zone, example: `mvm_env_colors mp_farm`
+* EnvFog command arguments are `startdist, halfdist, red, green, blue`, example: `100 1000 1 .2 .7`
+* EnvProp command arguments are models in the current map, common_mp, or a custom fastfile. If from a custom fastfile or another map, it must be precached!
+
+  └── A list of common_mp xmodels can be found [here]()
+* EnvFx command arguments are fx in the current map, common_mp, or a custom fastile. If from a custom fastfile or another map, it must be precached!
+  
+  └── Additionally, the arguments must be typed as `folder/filename`, example: `fire/firelp_med_pm_nodistort`
+       └── A list of common_mp fx's can be found [here]().
+  
+
+## Issues
+* ***Actors*** - Currently you cannot attach a weapon to the actor.
+
+### To report bugs or feature requests, please do so through [this](https://github.com/datapIan/iw3cine/issues) link.
 
 ## Credits
-**Sass:** *Wouldnt be doing this kind of stuff today if it wasn't for him. // Thank you for allowing me to use your code for my mod and everything else you've done for me! Seriously, all the kindness you've shown me the past years/recently is very appreciated.*
-* [Github](https://github.com/sortileges/iw4cine)
-* [Twitter](https://twitter.com/sasseries)
 
-**Antiga:** *Helped me convert and make functions for t5. // Thank you for expanding my knowledge of coding and everything else you've done for me! You also smell.*
-* [Github](https://github.com/mprust)
-* [Twitter](https://twitter.com/mp_rust)
+* [Antiga](https://github.com/mprust) - Helped with .gsc related questions.
+* [Expert](https://github.com/soexperttt) - Told me I should start coding, althought I didn't technically code anything for this.
+* [ReeaL](https://github.com/reaalx) - Helped with .menu related questions.
+* [Sass](https://github.com/sortileges) - Wrote the original MW2 Cinematic Mod.
+* [yoyo1love](https://github.com/yoyothebest) - Helped with .gsc and .menu related questions.
