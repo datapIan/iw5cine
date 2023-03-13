@@ -1,0 +1,10 @@
+^1Red
+^2Green
+^3Yellow
+^4Blue
+^5Cyan
+^6Pink
+^7White
+^0Black
+^8Ally
+^9Enemy
