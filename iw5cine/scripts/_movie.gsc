@@ -111,17 +111,17 @@ BotSpawn()
     self endon("disconnect");
 	self endon("death");
 
-	setDvar("mvm_bot_spawn", "Spawn a bot - ^9[class team]");
+	setDvar("mvm_bot_add", "Spawn a bot - ^9[class team]");
 	for (;;)
 	{
-		if(getDvar("mvm_bot_spawn") != "Spawn a bot - ^9[class team]")
+		if(getDvar("mvm_bot_add") != "Spawn a bot - ^9[class team]")
         {
 		    newTestClient = addTestClient();
 		    newTestClient.pers["isBot"] = true;
 		    newTestClient.isStaring = false;
 		    newTestClient thread BotsLevel();
 		    newTestClient thread BotDoSpawn(self); 
-			setDvar("mvm_bot_spawn", "Spawn a bot - ^9[class team]"); 
+			setDvar("mvm_bot_add", "Spawn a bot - ^9[class team]"); 
         }
         wait 0.1;
 	}
@@ -131,7 +131,7 @@ BotDoSpawn(owner)
 {
 	self endon("disconnect");
 
-	argumentstring = getDvar("mvm_bot_spawn");
+	argumentstring = getDvar("mvm_bot_add");
 	arguments = StrTok(argumentstring, " ,");
 
 	while (!isdefined(self.pers["team"])) wait .05;
