@@ -39,7 +39,7 @@ C:/
 ```
 
 
-#### MW3 Steam
+#### ~~MW3 Steam~~
 
 * Download the mod from [here](https://github.com/datapIan/iw5cine/releases/latest), extract and drag the "iw5cine" folder into your mods folder.
 ```text
