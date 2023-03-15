@@ -27,7 +27,7 @@ There's two types of installations for this mod. One for the *Plutonium* client,
 
 #### [Plutonium IW5](https://plutonium.pw) (Recommended)
 
-* Download the mod from [here](https://github.com/datapIan/iw5cine/releases/latest), extract and drag the "iw5cine" folder into your mods folder.
+* Download the mod from [here](https://github.com/datapIan/iw5cine/releases/latest), extract and drag the `iw5cine` folder into your mods folder.
 ```text
 C:/
 └── %localappdata%/
@@ -39,15 +39,20 @@ C:/
 ```
 
 
-#### ~~MW3 Steam~~
+#### [Open IW5](momo5502.github.io/open-iw5)
 
-* Download the mod from [here](https://github.com/datapIan/iw5cine/releases/latest), extract and drag the "iw5cine" folder into your mods folder.
+* Download the mod from [here](https://github.com/datapIan/iw5cine/releases/latest), extract and drag the contents of the `iw5cine` folder into your userraw folder.
+* Copy the contents of the mp folder, `_actor, _extras, _misc, _movie, _precache`, make a new folder called `scripts` in the `userraw` folder, and paste the 5 .gsc files into there.
+
 ```text
 C:/
 └── .../
     └── MW3/
-        └── mods/
-            └── iw5cine
+        └── userraw/
+            └── maps
+              └── mp
+            └── scripts
+              └── _actor, etc...
 ```
 
 ## Usage
