@@ -1,5 +1,5 @@
 # *IW5Cine*
-<img src="" alt="screenshot" height="250px" align="right"/>
+<img src="https://images7.alphacoders.com/374/thumb-1920-374381.jpg" alt="screenshot" height="250px" align="right"/>
 
 **A Port of [Sass' Cinematic Mod](https://github.com/sortileges/iw4cine) to Modern Warfare 3**
 
@@ -23,7 +23,7 @@
 
 ## Installation
 
-There's two types of installations for this mod. One for the *Plutonium* client, and one for the *Steam* client.
+There's two types of installations for this mod. One for the *Plutonium* client, and one for the *Open IW5* client.
 
 #### [Plutonium IW5](https://plutonium.pw) (Recommended)
 
