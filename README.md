@@ -37,6 +37,7 @@ C:/
                 └── mods
                     └── iw5cine
 ```
+Full path: `%localappdata%\Plutonium\storage\iw5\mods`
 
 
 #### [Open IW5](momo5502.github.io/open-iw5)
@@ -71,7 +72,8 @@ C:/
 * EnvFx command arguments are fx in the current map, common_mp, or a custom fastile. If from a custom fastfile or another map, it must be precached!
   
   └── Additionally, the arguments must be typed as `folder/filename`, example: `dust/bouncing_betty_swirl`
-       └── A list of common_mp fx's can be found [here](https://pastebin.com/zeHWZNSC).
+  
+  └── A list of common_mp fx's can be found [here](https://pastebin.com/zeHWZNSC).
 
 ## Issues
 * ***BotKill*** - Currently the command doesn't kill bots.
