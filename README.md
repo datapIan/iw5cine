@@ -36,12 +36,12 @@ C:/
 └── .../
     └── MW3/
         └── mods/
-            └── mp_iw5cine
+            └── iw5cine
 ```
 
 - [Plutonium](https://plutonium.pw) full path: `%localappdata%\Plutonium\storage\iw5`
 
-Once this is done open your game, open the console using `~`, and type `/fs_game "mods/iw5cine`.
+[Pluto] Once this is done open your game, open the console using `~`, and type `/fs_game "mods/iw5cine`.
 
 <br/><br/>
 ## Usage
