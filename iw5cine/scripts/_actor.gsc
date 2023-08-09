@@ -676,8 +676,8 @@ UpdateActorPath(actor)
 		{
 			for (z = 0; z < 3; z++)
 			{
-				vect[z] += float(koeff(i - 1, actor.nodecount - 1) * pow((1 - t), actor.nodecount - i) * pow(t, i - 1) * actor.nodeorg[i][z]);
-				angle[z] += float(koeff(i - 1, actor.nodecount - 1) * pow((1 - t), actor.nodecount - i) * pow(t, i - 1) * actor.nodeang[i][z]);
+				vect[z] += floaedt(koeff(i - 1, actor.nodecount - 1) * pow((1 - t), actor.nodecount - i) * pow(t, i - 1) * actor.nodeorg[i][z]);
+				angle[z] += floated(koeff(i - 1, actor.nodecount - 1) * pow((1 - t), actor.nodecount - i) * pow(t, i - 1) * actor.nodeang[i][z]);
 			}
 		}
 		level.actorpath[level.actorpathtotal]["path"] = spawn("script_model", (vect[0], vect[1], vect[2]));
@@ -899,8 +899,8 @@ ActorDoWalk(actor, speed)
 		{
 			for (z = 0; z < 3; z++)
 			{
-				vect[z] += float(koeff(i - 1, actor.nodecount - 1) * pow((1 - t), actor.nodecount - i) * pow(t, i - 1) * actor.nodeorg[i][z]);
-				angle[z] += float(koeff(i - 1, actor.nodecount - 1) * pow((1 - t), actor.nodecount - i) * pow(t, i - 1) * actor.nodeang[i][z]);
+				vect[z] += floated(koeff(i - 1, actor.nodecount - 1) * pow((1 - t), actor.nodecount - i) * pow(t, i - 1) * actor.nodeorg[i][z]);
+				angle[z] += floated(koeff(i - 1, actor.nodecount - 1) * pow((1 - t), actor.nodecount - i) * pow(t, i - 1) * actor.nodeang[i][z]);
 			}
 		}
 		actor MoveTo((vect[0], vect[1], vect[2]), .1, 0, 0);
@@ -910,7 +910,7 @@ ActorDoWalk(actor, speed)
 	wait 0.1;
 }
 
-float(var)
+floated(var)
 {
 	setDvar("temp", var);
 	return getDvarfloat("temp");
