@@ -676,7 +676,7 @@ UpdateActorPath(actor)
 		{
 			for (z = 0; z < 3; z++)
 			{
-				vect[z] += floaedt(koeff(i - 1, actor.nodecount - 1) * pow((1 - t), actor.nodecount - i) * pow(t, i - 1) * actor.nodeorg[i][z]);
+				vect[z] += floated(koeff(i - 1, actor.nodecount - 1) * pow((1 - t), actor.nodecount - i) * pow(t, i - 1) * actor.nodeorg[i][z]);
 				angle[z] += floated(koeff(i - 1, actor.nodecount - 1) * pow((1 - t), actor.nodecount - i) * pow(t, i - 1) * actor.nodeang[i][z]);
 			}
 		}
